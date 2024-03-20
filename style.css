@@ -262,7 +262,7 @@ header {
 /*estilos de servicios*/
 
 #servicio {
-    background-color: var(--colorgrisfondo);
+    background-color: var(--colorblanco);
 }
 
 .servicio {
@@ -271,7 +271,7 @@ header {
     gap: 50px;
 
     & p {
-        color: var(--colorgristexto1);
+        color: var(--colornegro);
     }
 }
 
@@ -331,7 +331,7 @@ header {
 
 
 #encima {
-    background-image: url(https://campusonline.senati.edu.pe/assets/images/fondo02.fw-10-1620x500.png);
+    background-image: url(imagenes/fondo02.fw-10-1620x500.webp);
     background-size: cover;
     background-position: center;
 }
@@ -348,7 +348,7 @@ header {
 }
 
 .sede h6 p {
-    color: var(--colorgristexto1);
+    color: var(--colornegro);
     padding: 10px;
 }
 
@@ -362,7 +362,7 @@ header {
 }
 
 .enlaces ul {
-    color: var(--colorgristexto1);
+    color: var(--colorgristexto2);
     list-style-type: none;
     display: flex;
     flex-direction: column;
@@ -379,12 +379,12 @@ header {
     }
 
     & a {
-        color: var(--colorgristexto2);
+        color: var(--colornegro);
         text-decoration: none;
     }
 
     & a:hover {
-        text-decoration: underline solid var(--colorgristexto1);
+        text-decoration: underline solid var(--colornegro);
     }
 }
 
